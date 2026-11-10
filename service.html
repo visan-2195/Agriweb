@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Our Services - Agri Help</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  
+  <link rel="stylesheet" href="agri.css" />
+</head>
+<body>
+
+  <h1>Agri</h1>
+
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="ag.html">🌱 Agri</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item"><a class="nav-link" href="ag.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="service.html">Services</a></li>
+          <li class="nav-item"><a class="nav-link" href="gov.html">Government Services</a></li>
+          <li class="nav-item"><a class="nav-link" href="feedback.html">Feedback</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        </ul>
+        <form class="d-flex ms-auto" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container my-4">
+    <div class="row g-4 justify-content-center">
+
+      <div class="col-md-4 col-sm-6">
+        <div class="card h-100">
+          <img src="https://www.allonlineschools.com/wp-content/uploads/2024/10/crop-advisor-1920x1080-1.jpg" class="card-img-top" alt="Crop Advisor">
+          <div class="card-body">
+            <h5 class="card-title">Crop Advisor</h5>
+            <p class="card-text">Get suggestions based on soil and weather.</p>
+            <a href="#" class="btn btn-primary">Learn More</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 col-sm-6">
+        <div class="card h-100">
+          <img src="https://poweramr.in/public/uploaded_files/blog/1696965130_6688896525a20a4f21d_iot_based_weather_monitoring_system.jpg" class="card-img-top" alt="Weather Monitor">
+          <div class="card-body">
+            <h5 class="card-title">Weather Monitor</h5>
+            <p class="card-text">Live updates on temperature, humidity, and rainfall.</p>
+            <a href="#" class="btn btn-primary">Check Weather</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 col-sm-6">
+        <div class="card h-100">
+          <img src="https://cropwatch.unl.edu/sites/unl.edu.ianr.extension.cropwatch/files/styles/16_9_505x284/public/media/image/2024-12-06-soil-health-technologies-hero.jpg?itok=XbIv24wV" class="card-img-top" alt="Soil Health Checker">
+          <div class="card-body">
+            <h5 class="card-title">Soil Health Checker</h5>
+            <p class="card-text">Analyze soil moisture, pH, and nutrients.</p>
+            <a href="#" class="btn btn-primary">Analyze Soil</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 col-sm-6">
+        <div class="card h-100">
+          <img src="https://static.pib.gov.in/WriteReadData/userfiles/image/image0024ABT.jpg" class="card-img-top" alt="Government Schemes">
+          <div class="card-body">
+            <h5 class="card-title">Government Schemes</h5>
+            <p class="card-text">Explore subsidies and support like PM-KISAN, PMFBY.</p>
+            <a href="gov.html" class="btn btn-primary">View Schemes</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 col-sm-6">
+        <div class="card h-100">
+          <img src="https://www.religareonline.com/blog/wp-content/uploads/2024/05/how-is-a-notional-value-different-from-the-market-value.jpg" class="card-img-top" alt="Market Prices">
+          <div class="card-body">
+            <h5 class="card-title">Market Prices</h5>
+            <p class="card-text">Real-time prices of crops in different markets.</p>
+            <a href="#" class="btn btn-primary">View Prices</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 col-sm-6">
+        <div class="card h-100">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiK5fyKXGmF_pn7CrrcQylKR7zMP_M0nlX9A&s" class="card-img-top" alt="news">
+          <div class="card-body">
+            <h5 class="card-title">Agri news updates</h5>
+            <p class="card-text">Latest news on agriculture, weather, and policies.</p>
+            <a href="#" class="btn btn-primary">Get News</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <footer class="text-center mt-5 p-3 bg-light">
+    <p>© 2025 Agriculture Help | Designed by Students</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+  <script>
+    document.querySelectorAll('.nav-link').forEach(link => {
+      if (link.href === window.location.href) {
+        link.classList.add('active');
+        link.setAttribute('aria-current', 'page');
+      }
+    });
+  </script>
+</body>
+</html>

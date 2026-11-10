@@ -1,0 +1,129 @@
+/* Reset defaults */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Base Styling */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  line-height: 1.6;
+  background-color: #f2faf5; /* Ultra-light mint background */
+  color: #25332c;
+  padding: 10px;
+}
+
+/* Header */
+h1 {
+  text-align: center;
+  color: #0f5132; /* Deep emerald green */
+  margin-top: 10px;
+  font-size: 2.5rem;
+}
+
+/* Navbar Customizations */
+.navbar {
+  margin-top: 10px;
+  background-color: #d1e7dd !important; /* Fresh light mint */
+  border-radius: 8px;
+  padding: 0.5rem 1rem;
+}
+
+.navbar-brand {
+  color: #0f5132 !important;
+  font-weight: 700;
+}
+
+.nav-link {
+  color: #146c43 !important;
+  font-weight: 500;
+  transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out;
+  border-radius: 4px;
+  padding: 0.5rem 1rem !important;
+}
+
+/* Hover State */
+.navbar-nav .nav-link:hover {
+  color: #198754 !important;
+  background-color: rgba(25, 135, 84, 0.08);
+}
+
+/* Dynamically Handled Active Tab State */
+.navbar-nav .nav-link.active {
+  color: #ffffff !important;
+  background-color: #198754 !important; /* Medium vibrant green */
+  font-weight: 600;
+}
+
+/* Sections */
+section {
+  background: white;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 900px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(15, 81, 50, 0.06);
+  border: 1px solid #e1f0e8;
+}
+
+section h2 {
+  color: #146c43;
+  margin-bottom: 1rem;
+}
+
+section p {
+  margin-bottom: 1rem;
+}
+
+section img {
+  width: 100%;
+  border-radius: 10px;
+  margin-top: 15px;
+}
+
+/* Articles */
+article {
+  background-color: #e8f5e9;
+  border-left: 5px solid #198754;
+  padding: 10px 15px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+/* Cards (Services & Government Pages) */
+.card {
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(15, 81, 50, 0.04);
+  margin-bottom: 20px;
+  overflow: hidden;
+  border: 1px solid #d1e7dd;
+  background-color: #ffffff;
+}
+
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+
+.card-title {
+  color: #0f5132;
+  font-weight: 600;
+}
+
+/* Primary Button Updates to Match */
+.btn-primary {
+  background-color: #198754 !important;
+  border-color: #198754 !important;
+}
+.btn-primary:hover {
+  background-color: #146c43 !important;
+  border-color: #146c43 !important;
+}
+
+/* Footer elements */
+footer {
+  border-radius: 8px;
+  background-color: #d1e7dd !important;
+  color: #0f5132 !important;
+}
